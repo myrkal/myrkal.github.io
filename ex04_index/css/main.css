@@ -1,0 +1,32 @@
+#titrePage{ color: red; font-size: 3em; text-align: center;}
+p::first-letter{
+    text-align: justify;
+    color: green;
+
+} 
+p:first-of-type::first-letter {
+    color: purple;
+  }
+p::first-letter{
+    font-size: 2em;
+ }
+ p a {
+  color: inherit; /* Inherit the color from the parent paragraph */
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: red;
+}
+p a:hover {
+ background-color: yellow ;
+}
+ h2 {
+
+  display: inline-block;
+
+  padding: 10px; 
+}
+ h2:hover {
+    color: rgb(150, 0, 255);
+    background-color: lightblue;
+    padding: 10px; 
+}
